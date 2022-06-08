@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    .logo{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 68px;
+        }
+    }
+    .nav-con{
+        width: 70%;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            li{
+                a{
+                    color: #fff;
+                    font-size: larger;
+                    &:hover{
+                        color: #CA310A;
+                        padding: 10px;
+                    }
+
+                }
+            }
+        }
+    }
+}

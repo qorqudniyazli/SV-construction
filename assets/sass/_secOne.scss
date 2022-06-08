@@ -1,0 +1,35 @@
+.secOne{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    .secOne-logo{
+        transform: translate(200px,220px);
+        width: 400px;
+        height: 300px;
+        h1{
+            color: #CA3100;
+            font-size: 30px;
+        }
+        h2{
+            font-size: 50px;
+            color: #fff;
+        }
+        input{
+           background-color: #024874;
+           font-size: 30px;
+           border: none;
+           &:hover{
+               background-color: #CA3100;
+               padding: 5px,5px,5px,5px;
+           }
+        }
+    }
+    .line2{
+        width: 100%;
+        background-color: #CA3100;
+        bottom: 100%;
+    }
+}
